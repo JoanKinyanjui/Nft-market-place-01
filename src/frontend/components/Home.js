@@ -49,8 +49,10 @@ const Home = ({ marketplace, nft }) => {
   )
   return (
     <div className="flex justify-center">
+          <div><h3 className='w-screen h-56 text-bold text-black mx-auto'>Explore, collect and sell NFT'S</h3></div>
       {items.length > 0 ?
         <div className="px-5 container">
+      
           <Row xs={1} md={2} lg={4} className="g-4 py-5">
             {items.map((item, idx) => (
               <Col key={idx} className="overflow-hidden">
