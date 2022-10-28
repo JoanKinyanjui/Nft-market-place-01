@@ -48,8 +48,8 @@ const Home = ({ marketplace, nft }) => {
     </main>
   )
   return (
-    <div className="flex justify-center">
-          <div><h3 className='w-screen h-56 text-bold text-black mx-auto'>Explore, collect and sell NFT'S</h3></div>
+    <div className="block justify-center">
+          <div><h3 className='w-screen h-56 text-bold mx-auto text-sans text-4xl text-fuchsia-600'>Explore, collect and sell NFT'S</h3></div>
       {items.length > 0 ?
         <div className="px-5 container">
       

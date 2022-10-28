@@ -6,7 +6,7 @@ import market from './market.png'
 
 const Navigation = ({ web3Handler, account }) => {
     return (
-        <Navbar expand="lg" bg="dark" variant="dark" fixed="top" className="bg-black">
+        <Navbar expand="lg" bg="dark" variant="dark" className=" w-screen bg-black mb-16 ">
             <Container >
                 <Navbar.Brand href="https://blockbuild.africa/wp-content/uploads/2022/08/NFT-Utility.jpeg">
                     <img src="https://blockbuild.africa/wp-content/uploads/2022/08/NFT-Utility.jpeg"  className="rounded-full w-48 h-36 " alt="" />
